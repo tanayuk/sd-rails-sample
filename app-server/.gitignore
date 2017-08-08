@@ -16,8 +16,9 @@
 !/log/.keep
 /tmp
 
-/vendor/bundle
-
-# IntelliJ files
-*.iml
+# IntelliJ config files
 .idea/
+*.iml
+
+# local bundler gems
+/vendor/bundle
